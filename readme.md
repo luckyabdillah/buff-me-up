@@ -8,7 +8,7 @@ Buff Me Up adalah website yang dirancang untuk penggunaan Fitness Center. Websit
 
 ## Jalankan secara lokal
 
-Untuk menjalankan aplikasi ini secara lokal, silakan ikuti langkah-langkah berikut:
+Untuk menjalankan website ini secara lokal, silahkan clone repo ini ke dalam komputer anda 
 
 ```bash
   git clone https:/githubcomluckyabdillah/buff-me-up
