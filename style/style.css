@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.965);
+    font-size: 0.95em;
+}
+
+.navbar .navbar-brand {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.navbar .navbar-brand span {
+    color: #561692e3;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+    margin: 0 0.4rem;
+}
+
+.starting-page {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 9em;
+}
+
+.starting-page h1 {
+    font-size: 3em;
+}
+
+.mybutton1 {
+    border: 3px solid black;
+    padding: 0.65em 3em;
+    display: inline-block;
+    transition: 300ms;
+    text-decoration: none;
+    color: black;
+}
+
+.mybutton1:hover {
+    background-color: black;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.program {
+    box-sizing: border-box;
+}
+
+.program .prg {
+    display: flex;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    color: #fff;
+    border: 5px solid #fff;
+    cursor: pointer;
+}
+
+.program .prg:hover {
+    opacity: 0.7;
+}
+
+.prg-1 {
+    background-image: url(../img/stretching.jpg);
+}
+
+.prg-2 {
+    background-image: url(../img/zumba.jpg);
+}
+
+.prg-3 {
+    background-image: url(../img/yoga.jpg);
+}
+
+.prg-4 {
+    background-image: url(../img/bodypump.jpg);
+}
+
+.prg-5 {
+    background-image: url(../img/dance.jpg);
+}
+
+.prg-6 {
+    background-image: url(../img/weightlifting.jpg);
+}
+
+.prg-7 {
+    background-image: url(../img/boxing.jpg);
+}
+
+.prg-8 {
+    background-image: url(../img/heavy.jpg);
+}
+
+.trial .jumbotron {
+    background-color: black;
+    color: #fff;
+}
+
+.trial .jumbotron p {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.trial .jumbotron span {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.mybutton2 {
+    border: 3px solid white;
+    padding: 0.65em 1em;
+    display: inline-block;
+    transition: 300ms;
+    text-decoration: none;
+    color: white;
+}
+
+.mybutton2:hover {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.class .card {
+    background-image: linear-gradient(225deg, #05395c 0%, #34388a 50%, #2e0353e3 100%);
+    color: white;
+    border-radius: 15px;
+    margin-top: 1em;
+}
+
+.class .card p {
+    font-size: 1.2em;
+}
+
+.mybutton3 {
+    border: 2px solid white;
+    padding: 0.5em 3em;
+    display: inline-block;
+    transition: 300ms;
+    text-decoration: none;
+    color: white;
+}
+
+.mybutton3:hover {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.pricing .card {
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(17, 26, 104, 0.2);
+    margin-top: 1em;
+}
+
+.pricing span {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(225deg, #05395c 0%, #34388a 50%, #2e0353e3 100%);
+    color: white;
+}
+
+.pricing .card p {
+    font-size: 0.9em;
+}
+
+.pricing .card i {
+    font-size: 1.25em;
+    margin-right: 0.2em;
+}
+
+.pricing .card li {
+    list-style: none;
+    margin-top: 0.5em;
+}
+
+.pricing .card a {
+    font-weight: 500;
+}
+
+.pricing .card a:hover {
+    text-decoration: none;
+}
+
+.about .jumbotron {
+    background-image: linear-gradient(76.3deg, rgba(44, 62, 78, 1) 12.6%, rgba(69, 103, 131, 1) 82.8%);
+    color: white;
+    padding-bottom: 0;
+}
+
+footer .jumbotron {
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    font-size: 0.9em;
+    padding: 3em;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0.4em;
+}
+
+footer ul li {
+    margin-right: 1.2em;
+}
+
+footer .downFooter li {
+    margin-right: 2.3em;
+}
+
+footer .downFooter li a {
+    color: grey;
+}
+
+footer a {
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: #bdbdbd;
+}
+
+footer .socmed {
+    text-align: center;
+}
+
+.socmed p {
+    margin: 0;
+    padding-bottom: 0.2em;
+    font-weight: 500;
+}
+
+.socmed i {
+    font-size: 1.75em;
+    padding: 0 0.35em;
+}
+
+.socmed a {
+    color: white;
+    transition: 300ms;
+}
+
+.socmed a:hover {
+    color: #bdbdbd;
+}
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    .about .jumbotron img {
+        width: 70%;
+    }
+
+    .navbar-collapse .navbar-nav #join {
+        background-image: linear-gradient(225deg, #05395c 0%, #34388a 50%, #2e0353e3 100%);
+        color: white;
+        border-radius: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 1023px) {
+    html {
+        font-size: 80%;
+    }
+
+    .about .jumbotron {
+        padding-bottom: 2em;
+    }
+
+    .about .jumbotron img {
+        display: none;
+    }
+
+    .pricing .card span {
+        display: inline-block;
+        padding: 0;
+        border-radius: 0;
+        background-image: none;
+        color: black;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse .navbar-nav #join {
+        background-image: none;
+        color: black;
+        border-radius: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* Tablet */
+@media (max-width: 767px) {
+    html {
+        font-size: 90%;
+    }
+
+    .starting-page {
+        margin-top: 7em;
+    }
+
+    footer .copyright {
+        order: 2;
+        margin-top: 1.2em;
+    }
+
+    footer .socmed {
+        order: 1;
+        text-align: left;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    html {
+        font-size: 75%;
+    }
+
+    .trial .jumbotron h1 {
+        font-size: 2.1em;
+    }
+
+    footer {
+        font-size: 0.85em;
+    }
+}
